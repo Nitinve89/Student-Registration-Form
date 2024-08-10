@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbdd62;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+form {
+    background: black;
+    color: white;
+    padding: 2em;
+    margin: 2em auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#studentRecords {
+    margin: 2em auto;
+    width: 80%;
+}
+
+#recordsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#recordsTable th, #recordsTable td {
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#recordsTable th {
+    background-color: #f4f4f4;
+}
+
+#recordsTable td button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#recordsTable td button:hover {
+    background-color: #c9302c;
+}
+
+#studentRecords {
+    max-height: 400px;
+    overflow-y: auto;
+}
